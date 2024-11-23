@@ -1,0 +1,223 @@
+*{
+margin:0;
+padding:0;
+font-family: 'Noto Serif Display', serif;
+font-weight:bold;
+
+}
+
+body{
+	text-align:center;
+}
+
+#top-header
+{
+	height:5%;
+	background-color:#666;
+		
+}
+#header{
+	padding-top:2%;
+}
+#bodypart{
+	background-color:White;
+	height:100%;
+}
+
+
+.row
+{
+	width:100%;
+	padding-bottom:10px;
+	
+	
+}
+.hpart1{
+    width:5%;
+	float:left;
+}
+
+.hpart2{
+    width:93%;
+	padding-top:0.45%;
+	font-size:40px;
+	color:Green;
+	text-align:left;
+}
+
+
+.login	
+{
+	text-decoration:none;
+	font-size:30px;
+	color:white;
+	
+}
+.loginspan{
+	float:right;
+	width:200px;
+	background-color:green;
+	text-align:center;
+	border-radius:10px;
+	margin-right:10px;
+}
+.loginspan:hover	
+{
+	background-color:red;
+	
+}
+
+
+#headerimg
+{   padding-left:20px;
+	width:60px;
+	height:60px;
+}
+
+
+#header ul{
+	list-style-type:none;
+	background-color: #d9d9d9;
+	overflow: hidden;
+}
+
+#header ul li{
+	float:left;
+	font-weight:bold;
+	
+}
+#header ul li a {
+  display: block;
+  padding: 15px 86px; 
+  text-align:center;
+  font-size:18px;
+  color:#333;
+  text-decoration:none;
+  font-family: 'Arial', serif;
+}
+
+#header ul li a:hover {
+  
+  background-color:red;
+  color:yellow;
+  
+}
+.sectitle{
+	text-align:center;
+	font-weigh:bold;
+	font-size:40px;
+	color:red;	
+}
+.courses
+{
+	width:80%;
+	margin:0 auto auto;	
+}
+.coursediv
+{
+	width:21.5%;
+	height:300px;
+	border:1px solid lightgrey;
+	float:left;
+	margin:3% 1%;
+	text-align:center;
+	border-radius:10px;
+	box-shadow: 3px 6px red;
+	
+}
+.cimg{
+	width:100%;
+	height:200px;
+	padding:0;
+	border-radius:10px;
+}
+.simg
+{
+	width:480px;
+	height:640px;
+	padding:0;
+	border-radius:10px;
+}
+
+.ctitle
+{
+	color:black;
+	font-weight:bold;
+	margin:10px;
+}
+.clink
+{
+	text-decoration:none; 
+}
+
+.enroll
+{
+	width:200px;
+	background-color:green;
+	color:white;
+	height:35px;
+	border-radius:10px;
+}
+
+.enroll:hover
+{
+	
+	background-color:indigo;
+	
+}
+
+
+hr{
+  border:none;
+  border-top:1px dashed #bbb;
+  color:#bbb;
+  background-color:#bbb;
+  height:1px;
+  width:100%;
+    
+   
+}
+#footer{
+	width:100%;
+	height:400px;
+	background-color:black;
+}
+.linkpart{
+   width:20%;
+   text-align:left;
+   padding-left:60px;
+   padding-top:30px;   
+   float:left;
+   color:yellow;
+}
+.linkpart a{
+	text-decoration:none;
+	color:white;
+}
+.formpart
+{
+	width:40%;
+   text-align:left;
+   padding-left:60px;
+   padding-top:30px;   
+   float:left;
+   color:yellow;
+}
+.formpart input[type="email"]{
+	background-color:white;
+	width:720px;
+	height:30px;
+	
+	
+}
+
+.formpart input[type="submit"]{
+	background-color:grey;
+	color:white;
+	width:720px;
+	height:30px;
+	
+}
+#err{
+	color:red;
+}
